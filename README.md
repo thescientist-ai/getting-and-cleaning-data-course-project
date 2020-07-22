@@ -7,17 +7,15 @@ This repository is owned by thescientist-ai.  This was created on July 22, 2020 
 ##Dataset
 The dataset used in this work is obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  More information on the authors are given below:
 
-=================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-=================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-=================================================
 
 ##Contents
 This repository contains the following files and folders:
