@@ -4,7 +4,7 @@ This is the repository for my course project on Getting and Cleaning Data under 
 ## Getting Started
 This repository is owned by thescientist-ai.  This was created on July 22, 2020 for the purpose of completing the course project for the Data Science: Getting and Cleaning Data program of Johns Hopkins University.
 
-##Dataset
+## Dataset
 The dataset used in this work is obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  More information on the authors are given below:
 
 Human Activity Recognition Using Smartphones Dataset
@@ -17,7 +17,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-##Contents
+## Contents
 This repository contains the following files and folders:
 - 'README.md'
 - 'Codebook.md': Contains relevant information regarding the variables, summaries, etc.
@@ -25,7 +25,7 @@ This repository contains the following files and folders:
 - 'run_analysis.R': R script that performs the needed analysis on the dataset
 - 'tidy_data.txt': Contains the tidy dataset
 
-##How run_analysis.R Works
+## How run_analysis.R Works
 01. Loads the required libraries
 02. Creates a folder "data" for the dataset (if it does no yet exist)
 03. Downloads the data into the working directory as a zipped filed and unzips it
@@ -40,14 +40,14 @@ This repository contains the following files and folders:
 12. Arrange the dataset by subject; use aggregate() by "subject" and "activity", set FUN=mean to get tidy data
 13. Write out tidy dataset as a text file
 
-##Notes
+## Notes
 You can read back the tidy_data.txt file into R via the following code:
 
 '''
 read.table("./tidy_data.txt", header = TRUE)
 '''
 
-##Acknowledgements
+## Acknowledgements
 For the helpful overview of the task:
 https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 
